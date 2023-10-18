@@ -1,0 +1,13 @@
+prefix=d:/Python_Project/Library
+exec_prefix=d:/Python_Project/Library
+libdir=d:/Python_Project/Library/lib
+sharedlibdir=d:/Python_Project/Library/lib
+includedir=d:/Python_Project/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
